@@ -6725,7 +6725,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@scena/dragscroll@npm:^1.0.1, @scena/dragscroll@npm:^1.0.2":
+"@scena/dragscroll@npm:^1.0.1, @scena/dragscroll@npm:^1.0.2, @scena/dragscroll@npm:^1.0.3":
   version: 1.0.3
   resolution: "@scena/dragscroll@npm:1.0.3"
   dependencies:
@@ -19664,7 +19664,7 @@ __metadata:
     react-hook-form: 7.5.3
     react-inlinesvg: 2.3.0
     react-loadable: 5.5.0
-    react-moveable: 0.29.0
+    react-moveable: 0.30.3
     react-popper: 2.2.4
     react-redux: 7.2.5
     react-refresh: ^0.10.0
@@ -29278,6 +29278,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-css-styled@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "react-css-styled@npm:1.0.3"
+  dependencies:
+    css-styled: ^1.0.0
+    framework-utils: ^1.1.0
+  checksum: 8dbfcc037483f57e701140c160fc5e5eed6e423d6eb78a69ff8ae6713f5f7135fd2852e461e63b2d0d1311e5ba272b7a03e7f5eab25baf45095d86abc9d566f4
+  languageName: node
+  linkType: hard
+
 "react-custom-scrollbars-2@npm:4.4.0":
   version: 4.4.0
   resolution: "react-custom-scrollbars-2@npm:4.4.0"
@@ -29635,7 +29645,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-moveable@npm:0.29.0, react-moveable@npm:~0.29.0":
+"react-moveable@npm:0.30.3":
+  version: 0.30.3
+  resolution: "react-moveable@npm:0.30.3"
+  dependencies:
+    "@daybrush/utils": ^1.6.0
+    "@egjs/agent": ^2.2.1
+    "@egjs/children-differ": ^1.0.1
+    "@scena/dragscroll": ^1.0.3
+    "@scena/matrix": ^1.1.1
+    css-to-mat: ^1.0.3
+    framework-utils: ^1.1.0
+    gesto: ^1.2.1
+    overlap-area: ^1.0.0
+    react-css-styled: ^1.0.3
+  checksum: 552528854d01ce4abb7a6346c489f1fcf920f288e7a06d03ab893fef2ad1586900dc7c1241dd332d41bf8256ac378fd265f8c33c2bbfcc9e522b5572564c1cb7
+  languageName: node
+  linkType: hard
+
+"react-moveable@npm:~0.29.0":
   version: 0.29.0
   resolution: "react-moveable@npm:0.29.0"
   dependencies:
